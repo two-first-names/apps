@@ -19,7 +19,8 @@ spec:
         args:
         - tunnel
         - run
-        - "--token $(TOKEN)"
+        - --token
+        - $(TOKEN)
         envFrom:
         - secretRef:
             name: cloudflared
