@@ -7,3 +7,4 @@ resources:
 - cloudflared.yaml
 - vault.yaml
 - longhorn.yaml
+- cert-manager.yaml
