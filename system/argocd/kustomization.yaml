@@ -3,7 +3,9 @@ kind: Kustomization
 
 resources:
 - github.com/argoproj/argo-cd/manifests/cluster-install?ref=stable
-- argocd-cm.yaml
 - argocd-server-tls.json
 - projects/system.yaml
 - argocd-github.json
+
+patches:
+- argocd-cm.yaml
