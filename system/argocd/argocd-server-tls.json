@@ -1,0 +1,23 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "argocd-server-tls",
+    "namespace": "argocd",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "argocd-server-tls",
+        "namespace": "argocd",
+        "creationTimestamp": null
+      },
+      "data": null
+    },
+    "encryptedData": {
+      "tls.crt": "AgAj+bcVJ8pOFhlQTfHrK8QWz0NstIDUagzX9WomJ+EHZDqHPfamxM2APdAn8qxMawOr3oTEN6Q49swrNAEASv3ZSMlieAjCxLelnW1R1eU4D3DNVw0WQbSVVfk6+56Y6qW90daMsbEIG2dFs3cROoD6ZFEQA7ZLzoIGdQQ9kCdb6uHlJJfMvCZ6mAdg6AvBMy+VaSAnYkHZLCzwCRIyHSCYnyf5VJNHuST2Q7TMuI3/YmrmkRcjoEgZF0Y97UFQJRjdXWRvoRiaxRvSzIXM856dYLvmWisl9Mj02kkl74WGZk3X6bbGrTccob6lSEV20NWq869nEDM1xYlFXqrwO7GgPqvBnN+diu+O3qg85kyxdEmRHEBvwqemjVoprVy51BnHOIXOGahc0LdziEuPgPB8U6s5gzNEnME9w/IpdU4E2YHZjVr4E3bI8SvnPG1rIDJEWwiufrnK8yhuXDFG9H9+CToSYycM4MlwXPXb7QLNfi66wQIZbRj7+94W5mEVoMEHaaro1zASYy0X8shyXANWLTwRwfcNHzElqPbS04AfXw/DYnVOvuBjgebKzF7o9EH5jrNsblUc4yQV3BMjImDFIIX+ByslVltcMeHpDqvkiiswemfgYtR9uX9PKD6MtZ3WJkwmLKxjEF4kcL0Ux98ODN3tGznXrDDTobD6VW8p+/hh2cz5jket5CNVvZlG1j8=",
+      "tls.key": "AgAk3lIlkF7o42tHsFuk82Ptn9rjppc1ael3lY4FUbkwOQLLOXoO3OJrzYgPkzavJhMY5Tq85zBmA1Y8U3iMQz+bFXuVKbViCagxXUSocSFELCGMw19k2NQsterMvKoKBNCsPpVAwifTtuL50essq3zK++8HM6BJIohTuo5IC9xEn0E/jKrnSHuXdHwPZmBtCFcrsX+Lb07H5z0/gNNRNP/QO8+9+AR/i5+yjj0lIrB0qaaKT6ZalmzJWtLQiqWzRN3EIzdL8TEJeU+PogyT6ROMQdCQrtNkH5/zjsqjVSc4eNAO30U/vhCxzSi4AGZ3Nex/4bYNDRaDTuQNZ7GeiFCo0EZLwC6DrDIOqgF5gw5mwaMnfu0IGTmB+6cxK4f2CglVgyuQAUxCdCHT9YJwFnxtBsiJWyUVg25GETUFj25hUYpFPXRAbHJ/fFrDD5RALvU7wFoon56hmInD/NNXY0IAO8hfAy4rxwLDQ1VGgia8o9HyMnLPzOyng5VLTmZ24hRWJBpNIQhIiH3Z99MZj4UkXPk8ITEzFRUi7UmZkqbs6gZ32QZ2SP8ZHwzbaQxH/OqmhnELiSi995rr4uwUhidYB70CbSg4mgguLlvHEvTU9IUPxwJXlDTZP3aHJwVxbX7Q23C6NBbU2+Uk16AePnjLtnNDgb4XQvdnHYBaTBMqsUljq4DORj1rLctCnhZkLrHELk5xbz/gtL82GIpgi3uUiHl6fgsKnGaYVz9+PhOhK4r3MMyKka4Ni5T0i7dsIUYuiHD/Rn/k50WhxwpwfeIAL/cSP3BoPuVbLPkR5yDlg++fhPIElfVF1rVrHNOKK6R8FEdZTPVT8ZvesTWZ9w6W/+g4yxy9r/hWlSxBrSICwLXaJWhkc73QmQu9ImzsGC/snbjOdsYcBegjGiBFWj30Kz4jPNFerUxTBUeEM2YKePBNY+IIjQV4Af0Iab2FpbDNBjJpqn1DvxXT31LDavaOONWREr8/FhCvGs6Qn7GTZPnRD8fYm2BlBRMNVModUbA8"
+    }
+  }
+}

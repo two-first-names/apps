@@ -1,1 +1,3 @@
 **/secret.json
+system/argocd/tls.key
+system/argocd/tls.crt
