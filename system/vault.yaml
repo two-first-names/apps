@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sealed-secrets
+  namespace: argocd
+spec:
+  project: system
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+    syncOptions:
+      - CreateNamespace=true
+  source:
+    chart: vault
+    repoURL: https://helm.releases.hashicorp.com
+    targetRevision: 0.19.0
+    helm:
+      parameters:
+      - name: server.ha.enabled
+        value: true
+      - name: server.ha.raft.enabled
+        value: true
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: kube-system

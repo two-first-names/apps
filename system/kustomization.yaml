@@ -5,3 +5,4 @@ resources:
 - argocd.yaml
 - sealed-secrets.yaml
 - cloudflared.yaml
+- vault.yaml
