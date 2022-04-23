@@ -13,4 +13,7 @@ spec:
   - '*'
   destinations:
   - namespace: 'twofirstnames-*'
-    server: '*'
+    server: '*'  
+  clusterResourceWhitelist:
+  - group: ''
+    kind: Namespace
