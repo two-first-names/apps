@@ -4,14 +4,17 @@
   "metadata": {
     "name": "argocd-github",
     "namespace": "argocd",
-    "creationTimestamp": null
+    "creationTimestamp": null,
   },
   "spec": {
     "template": {
       "metadata": {
         "name": "argocd-github",
         "namespace": "argocd",
-        "creationTimestamp": null
+        "creationTimestamp": null,
+        "labels": {
+          "app.kubernetes.io/part-of": "argocd"
+        }
       },
       "data": null
     },

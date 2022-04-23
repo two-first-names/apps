@@ -12,4 +12,4 @@ data:
       name: GitHub
       config:
         clientID: 22cf8c716f64dd7d3cf6 
-        clientSecret: $argocd-github:client-secret 
+        clientSecret: $argocd-github:client-secret
