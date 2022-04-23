@@ -5,6 +5,8 @@ metadata:
 data:
   url: https://argocd.twofirstnames.org
 
+  users.anonymous.enabled: "true"
+
   dex.config: |
     connectors:
     - type: github
