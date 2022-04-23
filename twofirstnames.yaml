@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: twofirstnames
+  namespace: argocd
+spec:
+  project: system
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+    syncOptions:
+      - CreateNamespace=true
+  source:
+    repoURL: https://github.com/two-first-names/apps.git
+    targetRevision: HEAD
+    path: twofirstnames
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd
