@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - github.com/argoproj/argo-cd/manifests/cluster-install?ref=stable
+- projects/system.yaml
