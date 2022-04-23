@@ -5,6 +5,12 @@ metadata:
   namespace: argocd
 spec:
   project: system
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+    syncOptions:
+      - CreateNamespace=true
   source:
     repoURL: https://github.com/two-first-names/apps.git
     targetRevision: HEAD
