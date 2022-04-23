@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: system
+  namespace: argocd
+spec:
+  project: system
+  source:
+    repoURL: https://github.com/two-first-names/apps.git
+    targetRevision: HEAD
+    path: system
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd
