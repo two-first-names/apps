@@ -1,0 +1,22 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "argocd-github",
+    "namespace": "argocd",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "argocd-github",
+        "namespace": "argocd",
+        "creationTimestamp": null
+      },
+      "data": null
+    },
+    "encryptedData": {
+      "client-secret": "AgBFi9ICvIhLbDtmN8V6S2JQoZRG2BIZEAa92NvmvLvQ9kayAieSHmn6i18ZYS76ovRK7uP4RBO+1Lxf8TBJyz/uzLoaSnceLjqnR6qKNgQIF2NhqzveXPGZoAY7SrH9McDJVTwkZ3ii5T0K9aY+HcgjjCj7N2LPdw2ci5VUDicnTw3AajuA2ntvFgmiU9kr1Q3RZwk9LIhbMDhvQdwx1awMwGcm0Q3ESBhsUE6iER6geIfC6IPfARjT1oy+M6CnrFOBbnc/0zx/WchXhHFJ7Ksv/wCWnJlv5MwA3QXiNNeb2SF09ippsIGMRU6kbQw3sJnzEQOmek2twYuLEAp8+BbfNNaB0zW10DmVlVXPXiaInBfuXIU+eHfP1CfzIjKDGGxOxPEj/T82B9MunwELQMU78nHsThfghddO2G0+cRUze1U2TSILvZ/+7l2l1gTVO5ugbnCwzUOFdHBDXFnbrXeeC+IT9myEGmZbKOKsaQqTSVqzYNWpvcjLD5Ta3RndvJmD/x8RhXcTqtb8xiEzCZQX7rzMNqK6jOn+/mI1dcEG5f9EdAQcBtguiSjlj42krug6oIjX/wC1ur5/WtGMlON0j6EqNFSaalvDiGFeiSNK8I09EHIf9E8iQ2ZG7aTMHOrEpPOvMPfi4j4m2/7OFJcnjIoSbi3IH2nUw/fxa5txdUYzAXQtQhDam1qFY9WcLBWTo8gtm0DXblk3qpTjh84mraTEZErY/spNU48XFDKDltDDrSt3oD/Z"
+    }
+  }
+}
