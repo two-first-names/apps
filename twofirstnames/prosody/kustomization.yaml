@@ -5,7 +5,7 @@ resources:
 - cloudflare-api-token-secret.json
 - issuer.yaml
 - certificate.yaml
-- github.com/two-first-names/kustomize/prosody?ref=17c81c775d27f455f966647c2ef3fd466f1cc514
+- github.com/two-first-names/kustomize/prosody?ref=e93a7997ff015fbc17f51159ce952b56a0d17baf
 
 patches:
 - configmap.yaml
