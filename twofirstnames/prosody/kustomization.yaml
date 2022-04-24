@@ -6,3 +6,6 @@ resources:
 - issuer.yaml
 - certificate.yaml
 - github.com/two-first-names/kustomize/prosody
+
+patches:
+- configmap.yaml

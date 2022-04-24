@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prosody-config 
+data:
+  vhost.d/twofirstnames.org.cfg.lua: |
+    VirtualHost "twofirstnames.org"
+  cmpt.d/twofirstnames.org.cfg.lua: |
+    Component "conference.twofirstnames.org" "muc"
+
+    Component "pubsub.twofirstnames.org" "pubsub"
