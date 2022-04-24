@@ -3,9 +3,11 @@ kind: ConfigMap
 metadata:
   name: prosody-config 
 data:
-  vhost.d/twofirstnames.org.cfg.lua: |
+  admin.conf.cfg.lua: |
+    admins = { "omega@twofirstnames.org" }
+  twofirstnames.org.vhost.cfg.lua: |
     VirtualHost "twofirstnames.org"
-  cmpt.d/twofirstnames.org.cfg.lua: |
+  twofirstnames.org.cmpt.cfg.lua: |
     Component "conference.twofirstnames.org" "muc"
 
     Component "pubsub.twofirstnames.org" "pubsub"
