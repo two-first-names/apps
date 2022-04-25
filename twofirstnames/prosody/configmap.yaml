@@ -11,3 +11,11 @@ data:
     Component "conference.twofirstnames.org" "muc"
 
     Component "pubsub.twofirstnames.org" "pubsub"
+  optimalver.se.vhost.cfg.lua: |
+    VirtualHost "optimalver.se"
+
+    admins = { "omega@optimalver.se" }
+  optimalver.se.cmpt.cfg.lua: |
+    Component "conference.optimalver.se" "muc"
+
+    Component "pubsub.optimalver.se" "pubsub"

@@ -26,6 +26,11 @@ spec:
     - twofirstnames.org
     - im.twofirstnames.org
     - conference.twofirstnames.org
+    - pubsub.twofirstnames.org
+    - optimalver.se
+    - im.optimalver.se
+    - conference.optimalver.se
+    - pubsub.optimalver.se
   # Issuer references are always required.
   issuerRef:
     name: cloudflare
