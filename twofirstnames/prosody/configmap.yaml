@@ -20,5 +20,6 @@ data:
     allow_registration = true
   optimalver.se.cmpt.cfg.lua: |
     Component "conference.optimalver.se" "muc"
+    modules_enabled = { "muc_mam" }
 
     Component "pubsub.optimalver.se" "pubsub"
