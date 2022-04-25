@@ -15,6 +15,7 @@ data:
     VirtualHost "optimalver.se"
 
     admins = { "omega@optimalver.se" }
+    allow_registration = true
   optimalver.se.cmpt.cfg.lua: |
     Component "conference.optimalver.se" "muc"
 
