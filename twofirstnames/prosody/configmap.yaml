@@ -5,6 +5,8 @@ metadata:
 data:
   admin.conf.cfg.lua: |
     admins = { "omega@twofirstnames.org" }
+  allow_registration.conf.cfg.lua: |
+    allow_registration = true
   twofirstnames.org.vhost.cfg.lua: |
     VirtualHost "twofirstnames.org"
   twofirstnames.org.cmpt.cfg.lua: |
