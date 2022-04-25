@@ -9,6 +9,7 @@ data:
     allow_registration = true
   twofirstnames.org.vhost.cfg.lua: |
     VirtualHost "twofirstnames.org"
+    http_host = "im.twofirstnames.org"
   twofirstnames.org.cmpt.cfg.lua: |
     Component "conference.twofirstnames.org" "muc"
 
@@ -18,6 +19,7 @@ data:
 
     admins = { "omega@optimalver.se" }
     allow_registration = true
+    http_host = "im.optimalver.se"
   optimalver.se.cmpt.cfg.lua: |
     Component "conference.optimalver.se" "muc"
     modules_enabled = { "muc_mam" }
