@@ -33,6 +33,8 @@ spec:
         value: "false"
       - name: livenessProbe.enabled
         value: "false"
+      - name: image.debug
+        value: "true"
   destination:
     server: https://kubernetes.default.svc
     namespace: optimalverse-mediawiki
