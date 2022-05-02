@@ -27,6 +27,10 @@ spec:
         value: Optimalverse
       - name: mediawikiHost
         value: wiki.optimalver.se
+      - name: livenessProbe.enabled
+        value: "false"
+      - name: readinessProbe.enabled
+        value: "false"
   destination:
     server: https://kubernetes.default.svc
     namespace: optimalverse-mediawiki
