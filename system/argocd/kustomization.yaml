@@ -7,6 +7,7 @@ resources:
 - argocd-github.json
 - projects/system.yaml
 - projects/twofirstnames.yaml
+- projects/optimalverse.yaml
 
 patches:
 - argocd-cm.yaml
