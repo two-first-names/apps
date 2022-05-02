@@ -1,0 +1,32 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: optimalverse-mediawiki
+  namespace: argocd
+spec:
+  project: optimalverse
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+    syncOptions:
+      - CreateNamespace=true
+  source:
+    repoURL: https://charts.bitnami.com/bitnami
+    chart: mediawiki
+    targetRevision: 1.37.2
+    helm:
+      parameters:
+      - name: mediawikiUser
+        value: admin
+      - name: mediawikiPassword
+        value: admin
+      - name: mediawikiEmail
+        value: savant@optimalver.se
+      - name: mediawikiName
+        value: Optimalverse
+      - name: mediawikiHost
+        value: wiki.optimalver.se
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: optimalverse-mediawiki
