@@ -20,7 +20,7 @@ spec:
       - name: mediawikiUser
         value: admin
       - name: mediawikiPassword
-        value: admin
+        value: "57$kB]2yg?N$]4Am"
       - name: mediawikiEmail
         value: savant@optimalver.se
       - name: mediawikiName
