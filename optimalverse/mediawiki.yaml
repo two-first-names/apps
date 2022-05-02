@@ -29,6 +29,10 @@ spec:
         value: wiki.optimalver.se
       - name: mariadb.auth.password
         value: optimalverse
+      - name: readinessProbe.enabled
+        value: "false"
+      - name: livenessProbe.enable
+        value: "false"
   destination:
     server: https://kubernetes.default.svc
     namespace: optimalverse-mediawiki
