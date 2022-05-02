@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: https://charts.bitnami.com/bitnami
     chart: mediawiki
-    targetRevision: 1.37.2
+    targetRevision: 14.0.1
     helm:
       parameters:
       - name: mediawikiUser
