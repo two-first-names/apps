@@ -9,7 +9,7 @@ data:
   
   oidc.config: |
     name: Keycloak
-    issuer: https://keycloak.twofirstnames.org/auth/realms/login
+    issuer: https://keycloak.twofirstnames.org/realms/login
     clientID: argocd
     clientSecret: $argocd-keycloak:client-secret
     requestedScopes: ["openid", "profile", "email", "groups"]
