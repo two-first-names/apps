@@ -19,6 +19,12 @@ spec:
       parameters:
       - name: service.type
         value: ClusterIP
+      - name: auth.existingSecret.name
+        value: passwords
+      - name: auth.existingSecret.keyMapping.admin-password
+        value: admin
+      - name: auth.existingSecret.keyMapping.management-password
+        value: management
   destination:
     server: https://kubernetes.default.svc
     namespace: keycloak
