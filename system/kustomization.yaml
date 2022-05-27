@@ -5,6 +5,7 @@ resources:
 - argocd.yaml
 - sealed-secrets.yaml
 - cloudflared.yaml
+- keycloak.yaml
 - vault.yaml
 - longhorn.yaml
 - cert-manager.yaml
