@@ -1,0 +1,22 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "argocd-keycloak",
+    "namespace": "argocd",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "argocd-keycloak",
+        "namespace": "argocd",
+        "creationTimestamp": null
+      },
+      "data": null
+    },
+    "encryptedData": {
+      "client-secret": "AgBe7ZoqBXlEuCNIjgpOreseIwIw4J93IbaR7cTsj2I3aglABIA2xpSTnXC8tmjtqMpWhcA+YuKSEDJoNvbbgMTcOxWqPz/rnAp2dVy2mOfBazaQmE3GF+npgP+nQg73ay86Rm2jaFvaS+2zTZy4cnd37Qe8U+mG7ZDq80jcvqzlSF4yO1euIZjoM2Nlt3P2kT9FtGRxNcaXn8BFKvcVIIhX9itV6VXgGsEKdV8gdqIEus1LU+OvWCIZ0fJqedmICdXS7m7ARs+354WJwjMXkBKGnmELX4CizFsre8DxC+51355oZyo9nXEkyFHbX6qD4p+EN8h88MmoB459Xunu9vQslEXSC5Ex4X0DUUC449hVBckd7qIogKFhuyH1A5EPDgKBwID8U52hA/Azqxuxsbfo9FhEFLl+LQd7hIiwKYbO3YT0HuDTnQPonG0mu9uLU/+0hzMmbL/wwasinbQqT4VdRm/m8B7bLfBeUmqd+pBzNJTEL0qYoTYtpcu81x8zcCum9qANYhqzh5cLckpu757sMCSFVxuNsYIffsISZdSjQ84ZmPqsuxTJOwwXk0N+kWmN7AmDuwFEm8c6XNcJsUHU3igX1IVDEuMAS8ZfSLqktsyfLju+bZkwDAp/62BLM0L87a0YAzA7ECRVmMSyJKJYFfzAiceuPmrQIBnw1Al70tg1rPx9UBU/1Uw1r+e/6LGm2YkS9IXIGVFk17qhgh+PUkGKIpMAkw0707Rwp1XQkg=="
+    }
+  }
+}

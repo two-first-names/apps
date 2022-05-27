@@ -5,13 +5,11 @@ metadata:
 data:
   url: https://argocd.twofirstnames.org
 
-  users.anonymous.enabled: "true"
-
-  dex.config: |
-    connectors:
-    - type: github
-      id: github
-      name: GitHub
-      config:
-        clientID: 22cf8c716f64dd7d3cf6 
-        clientSecret: $argocd-github:client-secret
+  users.anonymous.enabled: "true"  
+  
+  oidc.config: |
+    name: Keycloak
+    issuer: https://keycloak.twofirstnames.org/auth/realms/login
+    clientID: argocd
+    clientSecret: $argocd-keycloak:client-secret
+    requestedScopes: ["openid", "profile", "email", "groups"]

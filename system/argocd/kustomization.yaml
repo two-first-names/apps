@@ -5,6 +5,7 @@ resources:
 - github.com/argoproj/argo-cd/manifests/cluster-install?ref=stable
 - argocd-server-tls.json
 - argocd-github.json
+- argocd-keycloak.json
 - projects/system.yaml
 - projects/twofirstnames.yaml
 - projects/optimalverse.yaml
