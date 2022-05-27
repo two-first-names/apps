@@ -35,6 +35,8 @@ spec:
         value: "false"
       - name: image.debug
         value: "true"
+      - name: service.type
+        value: ClusterIP
   destination:
     server: https://kubernetes.default.svc
     namespace: optimalverse-mediawiki
