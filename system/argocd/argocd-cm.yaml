@@ -12,4 +12,4 @@ data:
     issuer: https://keycloak.twofirstnames.org/realms/login
     clientID: argocd
     clientSecret: $argocd-keycloak:client-secret
-    requestedScopes: ["openid", "profile", "email", "groups"]
+    requestedScopes: ["profile", "email", "groups"]
