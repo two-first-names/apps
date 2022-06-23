@@ -6,6 +6,6 @@ concourse:
     tls:
       enabled: true
     externalUrl: ci.twofirstnames.org
-  postgres:
+  postgresql:
     auth:
-      existing-secret: concourse-postgress
+      existing-secret: concourse-postgres
