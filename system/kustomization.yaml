@@ -5,6 +5,7 @@ resources:
 - argocd.yaml
 - sealed-secrets.yaml
 - cloudflared.yaml
+- concourse.yaml
 - keycloak.yaml
 - vault.yaml
 - longhorn.yaml
