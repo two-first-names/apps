@@ -8,4 +8,4 @@ concourse:
     externalUrl: ci.twofirstnames.org
   postgresql:
     auth:
-      existing-secret: concourse-postgres
+      existingSecret: concourse-postgres
