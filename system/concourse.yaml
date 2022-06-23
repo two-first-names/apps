@@ -16,4 +16,5 @@ spec:
     repoURL: https://github.com/two-first-names/apps.git
   destination:
     server: https://kubernetes.default.svc
-    namespace: concourse  
+    namespace: concourse
+    version: 1.X.X
