@@ -1,0 +1,7 @@
+concourse:
+  service:
+    web:
+      type: ClusterIP
+  postgres:
+    auth:
+      existing-secret: concourse-postgres

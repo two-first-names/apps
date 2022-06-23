@@ -12,13 +12,8 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    chart: concourse
-    repoURL: https://charts.bitnami.com/bitnami
-    targetRevision: 1.3.6
-    helm:
-      parameters:
-      - name: service.web.type
-        value: ClusterIP
+    path: system/concourse
+    repoURL: https://github.com/two-first-names/apps.git
   destination:
     server: https://kubernetes.default.svc
-    namespace: concourse
+    namespace: concourse  
