@@ -2,7 +2,12 @@ concourse:
   service:
     web:
       type: ClusterIP
+  secrets:
+    localUsers: joe:$2a$12$nOkFFsholLr3EYDa8iVQm./4zokGnfWngUBnO1z8aWrdz8tCFGNSK 
   web:
+    auth:
+      mainTeam:
+        localUser: joe
     tls:
       enabled: true
     externalUrl: ci.twofirstnames.org
