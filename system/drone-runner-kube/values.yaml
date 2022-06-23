@@ -1,0 +1,10 @@
+drone:
+  rbac:
+    buildNamespaces:
+      - drone
+
+  extraSecretNamesForEnvFrom:
+  - drone
+
+  env:
+    DRONE_NAMESPACE_DEFAULT: drone

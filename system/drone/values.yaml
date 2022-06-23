@@ -1,0 +1,6 @@
+drone:
+  extraSecretNamesForEnvFrom:
+  - drone
+  env:
+    DRONE_SERVER_HOST: ci.twofirstnames.org
+    DRONE_SERVER_PROTO: https
