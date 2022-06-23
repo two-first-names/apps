@@ -2,6 +2,8 @@ concourse:
   service:
     web:
       type: ClusterIP
+  web:
+    externalUrl: https://ci.twofirstnames.org
   postgres:
     auth:
-      existing-secret: concourse-postgres
+      existing-secret: concourse-postgress
