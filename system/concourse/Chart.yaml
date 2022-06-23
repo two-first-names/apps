@@ -25,4 +25,4 @@ appVersion: "1.16.0"
 dependencies:
   - name: concourse
     repository: https://charts.bitnami.com/bitnami
-    version: 11.X.X
+    version: 1.X.X
