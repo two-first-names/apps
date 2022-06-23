@@ -17,7 +17,7 @@ spec:
     targetRevision: 1.3.6
     helm:
       parameters:
-      - name: service.type
+      - name: service.web.type
         value: ClusterIP
   destination:
     server: https://kubernetes.default.svc
